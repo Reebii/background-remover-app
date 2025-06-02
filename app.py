@@ -7,7 +7,7 @@ import io
 import tempfile
 
 app = Flask(__name__)
-app.secret_key = 'your-secret-key-change-this'
+app.secret_key = 'https://background-remover-app-vdru.onrender.com'
 
 # Configuration
 UPLOAD_FOLDER = 'uploads'
